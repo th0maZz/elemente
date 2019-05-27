@@ -9,9 +9,21 @@ p{
 }
 
 span{
+	display: inline-block; /*Span verhält sich also wie ein Blockelement! */
 	background: yellow;
-}
+	}
 
 a{
 	background:  pink;
 }
+
+strong {
+	color: red;
+}
+
+p span {
+	background: transparent;
+	display: inline;
+}
+
+/*display: kann elemente in andere elemente umwandeln */
